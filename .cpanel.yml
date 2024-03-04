@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nextgyhh/OCO
+    - /bin/cp -r * $DEPLOYPATH
